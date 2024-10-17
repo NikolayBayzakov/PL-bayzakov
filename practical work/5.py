@@ -8,7 +8,3 @@ while True:
     print(sqrt)
     i += 1
 
-
-# for i in  range(10):
-#     i = i ** 2
-#     print(i)
