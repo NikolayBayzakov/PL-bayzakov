@@ -1,4 +1,5 @@
 from random import randint
+#вариант 10
 
 lst = [randint(1, 40) for x in range(15)]
 print('Первоначальный список:', lst)
