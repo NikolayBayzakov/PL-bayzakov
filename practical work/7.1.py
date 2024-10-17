@@ -1,4 +1,5 @@
 from random import randint
+#вариант 10
 
 lst = [randint(10, 80) for x in range(10)]
 print('Сгенерированный список', lst)
