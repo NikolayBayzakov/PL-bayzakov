@@ -22,7 +22,7 @@ def get_repo_info(repo_name):
     else:
         messagebox.showerror('Ошибка', 'Репозиторий не найден')
 
-#link = 'https://github.com/jlippold/tweakCompatible'
+
 
 def button_click():
     repo_name = entry.get()
