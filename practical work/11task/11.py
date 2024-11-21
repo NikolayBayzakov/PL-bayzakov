@@ -16,7 +16,7 @@ def get_repo_info(repo_name):
             'email': None,
             'id': repo_data.get('id'),
             'name': repo_data.get('name'),
-            'url': repo_data.get('html_url')  # Изменение на 'html_url' для получения URL репозитория
+            'url': repo_data.get('html_url') 
         }
         return repo_info
     else:
