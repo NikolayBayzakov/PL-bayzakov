@@ -15,3 +15,5 @@ public class Main {
         scanner.close();
     }
 }
+
+//1 задание
