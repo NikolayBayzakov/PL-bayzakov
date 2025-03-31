@@ -1,12 +1,17 @@
-class Main {
-    public static boolean checkEnding(String str1, String str2) {
-        if (str2.length() > str1.length()) {
-            return false;
-        }
+import java.util.Scanner;
 
-        String endOfStr1 = str1.substring(str1.length() - str2.length());
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        
+        String first = scanner.nextLine();
+        String second = scanner.nextLine();
 
-        return endOfStr1.equals(str2);
+        boolean endsWith = first.endsWith(second);
+
+        System.out.println(endsWith);
+        
+        scanner.close();
     }
 }
-
