@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+class CaesarCipher {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
