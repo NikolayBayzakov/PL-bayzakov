@@ -21,7 +21,7 @@ public class Main {
             
             System.out.println("\nРезультат: " + result);
         } finally {
-            scanner.close(); // Закрываем Scanner в блоке finally
+            scanner.close(); 
         }
     }
     
