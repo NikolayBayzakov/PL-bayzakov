@@ -8,7 +8,6 @@ public class Main {
             System.out.println("Шифр Цезаря");
             System.out.println("-----------");
             
-            // Ввод данных
             System.out.print("Введите строку для шифрования: ");
             String input = scanner.nextLine();
             
@@ -18,10 +17,8 @@ public class Main {
             System.out.print("Введите направление (1 - вправо, -1 - влево): ");
             int direction = scanner.nextInt();
             
-            // Шифрование строки
             String result = caesarCipher(input, shift, direction);
             
-            // Вывод результата
             System.out.println("\nРезультат: " + result);
         } finally {
             scanner.close(); // Закрываем Scanner в блоке finally
