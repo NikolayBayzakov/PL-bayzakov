@@ -23,9 +23,9 @@ class ArabicToRomanSimple {
     }
 
     public static void main(String[] args) {
-        System.out.println("5 → " + toRoman(5));      // III
-        System.out.println("10 → " + toRoman(10));      // IX
-        System.out.println("58 → " + toRoman(58));    // LVIII
-        System.out.println("1994 → " + toRoman(1994)); // MCMXCIV
+        System.out.println("5 → " + toRoman(5));      
+        System.out.println("10 → " + toRoman(10));      
+        System.out.println("58 → " + toRoman(58));    
+        System.out.println("1994 → " + toRoman(1994)); 
     }
 }
